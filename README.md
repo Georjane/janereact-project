@@ -22,7 +22,7 @@ To get a local copy of the repository please run the following commands on your 
 ```
 $ git clone https://github.com/Georjane/react-project.git
 $ cd react-project
-$ npm run watch
+$ npm start
 ```
 
 ## Author
