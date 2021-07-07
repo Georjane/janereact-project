@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# react-project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project I learned how to build a very simple React application. I worked in a real-world project for a fictional company that requires my help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that I will need to implement. React hooks will not be used here.
 
-## Available Scripts
+- Milestone 1: Basic project structure (see the following steps for details)
+- Milestone 2: Components (see the following steps for details)
+- Milestone 3: Styling (will be omitted in the initial implementation)
+- Milestone 4: Calculations (see the following steps for details)
+- Milestone 5: Event handlers (see the following steps for details)
 
-In the project directory, you can run:
+# Tools Used
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- npm
+- CSS
+- ES6
 
-### `yarn start`
+## Getting Started
+To get a local copy of the repository please run the following commands on your terminal:
+```
+$ git clone https://github.com/Georjane/react-project.git
+$ cd react-project
+$ npm run watch
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Author
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1. Witah Georjane
+* Github: [@Georjane](https://github.com/Georjane)
+* Twitter: [@WittyJany](https://twitter.com/WittyJany)
+* LinkedIn: [Witah Georjane](https://www.linkedin.com/in/witah-georjane)
 
-### `yarn test`
+## Contributing
+There are two ways of contributing to this project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. If you see something wrong or not working, please open the issue in issue section
+2. If you see something to improve or to correct, and you have a solution to that, follow the below steps to contribute:
+    1. Fork this repository
+    2. Clone it on your local computer by running `git clone https://github.com/Georjane/react-project.git` __Replace *your username* with the username you use on github__
+    3. Open the cloned repository which appears as a folder on your local computer with your favorite code editor
+    4. Create a separate branch off the *master branch*,
+    5. Write your codes which fix the issue you found
+    6. Commit and push the branch you created
+    7. Open a pull request, comparing your new created branch with our original master branch [here](https://github.com/Georjane/react-project/pulls)
 
-### `yarn build`
+## Show your support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Give a ⭐️ if you like this project!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgment
+* [Microverse](https://www.microvese.org)
+* [The Odin Project](https://www.theodinproject.com)
