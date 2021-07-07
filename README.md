@@ -2,7 +2,7 @@
 
 In this project I learned how to build a very simple React application. I worked in a real-world project for a fictional company that requires my help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that I will need to implement. React hooks will not be used here.
 
-- Milestone 1: Basic project structure (see the following steps for details)
+- Milestone 1: Setup Basic project structure (see the following steps for details)
 - Milestone 2: Components (see the following steps for details)
 - Milestone 3: Styling (will be omitted in the initial implementation)
 - Milestone 4: Calculations (see the following steps for details)
@@ -22,7 +22,7 @@ To get a local copy of the repository please run the following commands on your 
 ```
 $ git clone https://github.com/Georjane/react-project.git
 $ cd react-project
-$ npm run watch
+$ npm start
 ```
 
 ## Author
