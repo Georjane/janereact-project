@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Counter from './Counter';
 
 class Hi extends React.Component {
   constructor(props) {
@@ -8,18 +9,26 @@ class Hi extends React.Component {
     this.state = {
       fname: name,
       value: '',
+      counter: 1,
     };
     this.handleChange = this.handleChange.bind(this);
-    // this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleAddCounter = this.handleAddCounter.bind(this);
   }
 
   handleChange(e) {
     this.setState({ value: e.target.value });
   }
 
+  handleAddCounter() {
+    const { fname, value, counter } = this.state;
+    this.setState({ counter: counter + 1 });
+    this.setState({ fname });
+    this.setState({ value });
+  }
+
   render() {
     const {
-      fname, value,
+      fname, value, counter,
     } = this.state;
     return (
       <div>
@@ -31,12 +40,19 @@ class Hi extends React.Component {
         </h1>
 
         <br />
-        <input type="text" value={value} onChange={this.handleChange} />
+        <input type="text" onChange={this.handleChange} />
         <h2>
           You are typing
           {' '}
           {value}
         </h2>
+        <p>
+          Our count is
+          {' '}
+          {counter}
+          {' '}
+          <Counter clickHandler={this.handleAddCounter} />
+        </p>
       </div>
     );
   }
