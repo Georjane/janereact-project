@@ -40,7 +40,7 @@ class Hi extends React.Component {
         </h1>
 
         <br />
-        <input type="text" onChange={this.handleChange} />
+        <input type="text" onChange={this.handleChange} value={value} />
         <h2>
           You are typing
           {' '}
