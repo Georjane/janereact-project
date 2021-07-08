@@ -1,13 +1,14 @@
 import '../App.css';
 // import React from 'react';
-import Display from './Buttton';
+import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
     <>
+      <h1>Hello World!</h1>
       <Display results="jane" />
-      <ButtonPanel />
+      <ButtonPanel results="jany" />
     </>
   );
 }
