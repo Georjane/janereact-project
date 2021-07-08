@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Hello(props) {
+const Hello = (props) => {
   const { name } = props;
   return (
     <h1>
@@ -10,7 +10,7 @@ function Hello(props) {
       {name}
     </h1>
   );
-}
+};
 // class Hello extends React.Component {
 //   constructor(props) {
 //     super(props);
