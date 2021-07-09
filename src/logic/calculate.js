@@ -19,7 +19,11 @@ const calculate = (data, buttonName) => {
     total /= 100;
   }
 
-  if (buttonName === '.' && !(total.includes('.')) && total !== null && next === null) {
+  if (buttonName === '.' && total === null && next === null && operation === null) {
+    total = '0.';
+  } else if (buttonName === '.' && total !== null && next === null && operation !== null) {
+    next = '0.';
+  } else if (buttonName === '.' && !(total.includes('.')) && total !== null && next === null) {
     total += buttonName;
   } else if (buttonName === '.' && operation !== null && !(next.includes('.')) && total !== null && next !== null) {
     next += buttonName;
