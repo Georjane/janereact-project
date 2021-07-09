@@ -7,16 +7,16 @@ const calculate = (data, buttonName) => {
 
   if (buttonName === '+/-') {
     if (total !== null && operation === null && next === null) {
-      total = (total * -1).toString();
+      total *= -1;
     } else if (total !== null && operation !== null && next !== null) {
-      next = (next * -1).toString();
+      next *= -1;
     }
   } else if (buttonName === 'AC') {
     total = null;
     next = null;
     operation = null;
   } else if (buttonName === '%') {
-    total = (total / 100).toString();
+    total /= 100;
   }
 
   if (buttonName === '.' && !(total.includes('.')) && total !== null && next === null) {
