@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
 
-const Button = (props) => {
-  const { buttonName } = props;
-  return (
-    <button type="button">
-      {buttonName}
-    </button>
-  );
-};
+function Button({ buttonName, clickHandler }) {
+  return <button type="button" onClick={clickHandler}>{ buttonName }</button>;
+}
 
 Button.propTypes = {
-  buttonName: PropTypes.string.isRequired,
+  buttonName: PropTypes.string,
+  clickHandler: PropTypes.func,
+};
+
+Button.defaultProps = {
+  buttonName: '',
+  clickHandler: () => '',
 };
 
 export default Button;
