@@ -11,10 +11,11 @@ const operate = (numberOne, numberTwo, operation) => {
   } else if (operation === 'x') {
     result = num1 * num2;
   } else if (operation === '÷') {
-    if (num2 === '0') {
-      return 'Division by zero Error';
+    if (num2 !== '0') {
+      result = num1 / num2;
+    } else if (num2 === '0') {
+      result = 'Division by zero Error';
     }
-    result = num1 / num2;
   } else if (operation === '%') {
     result = num1 / 100;
   }
