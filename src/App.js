@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Hello from './Hello';
 import Hi from './Hi';
+import Hooks from './Hooks';
 
 // class App extends React.Component {
 //   constructor(props) {
@@ -25,6 +26,7 @@ const App = () => (
   <div className="App">
     <Hello name="Leon-Patrick" />
     <Hi name="Jane" />
+    <Hooks />
   </div>
 );
 
