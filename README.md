@@ -1,12 +1,7 @@
-# react-project
+# A Todo List Example
 
-In this project I learned how to build a very simple React application. I worked in a real-world project for a fictional company that requires my help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that I will need to implement. React hooks will not be used here.
-
-- Milestone 1: Setup Basic project structure (see the following steps for details)
-- Milestone 2: Components (see the following steps for details)
-- Milestone 3: Styling (will be omitted in the initial implementation)
-- Milestone 4: Calculations (see the following steps for details)
-- Milestone 5: Event handlers (see the following steps for details)
+To see how to use React Redux in practice, we’ll show a step-by-step example by creating a todo list app.
+Tutorial: Using the `connect` API
 
 # Tools Used
 - Node.js
